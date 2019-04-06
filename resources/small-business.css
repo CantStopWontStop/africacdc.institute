@@ -1,0 +1,89 @@
+
+
+.bg-image-full {
+  background: no-repeat scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.bg-image-fulls {
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+
+div {
+  box-sizing: border-box;
+  border: 100px;
+  border-color: black;
+}
+footer{
+  background-color: #262626;
+}
+body {
+  margin: 0;
+  font-family: 'Nunito';
+  letter-spacing: 0.0625em;
+}
+a{
+  color: #000;
+}
+a:hover{
+  color: #45723f;
+}
+.img-logo-bg {
+  max-width:
+}
+
+#mainNav {
+  padding: .5rem 0;
+  margin: 0;
+}
+.nav-brand {
+  font-weight: 900;
+}
+
+.nav-link:hover {
+  color: #45723f;
+}
+.nav-link:active {
+  color: #45723f;
+}
+
+.btn-primary {
+  background-color: #918056;
+  border-color: #918056;
+}
+
+.btn-primary:hover {
+  background-color: #45723f;
+}
+
+.btn-primary:focus {
+  background-color: #45723f;
+  color: white;
+}
+
+.btn-primary:active {
+  background-color: #45723f !important;
+}
+
+#container-fluid {
+  display: flex;
+
+  /* Then we define the flow direction
+     and if we allow the items to wrap
+   * Remember this is the same as:
+   * flex-direction: row;
+   * flex-wrap: wrap;
+   */
+  flex-flow: row wrap;
+
+  /* Then we define how is distributed the remaining space */
+  justify-content: space-around;
+}
