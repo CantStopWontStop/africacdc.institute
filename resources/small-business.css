@@ -25,13 +25,18 @@ div {
 footer{
   background-color: #262626;
 }
+footer a  {
+  text-decoration: none;
+}
 body {
   margin: 0;
   font-family: 'Nunito';
   letter-spacing: 0.0625em;
 }
-a{
-  color: #000;
+a {
+  color: #918056;
+  text-decoration: underline;
+  font-weight: bold;
 }
 a:hover{
   color: #45723f;
@@ -43,11 +48,17 @@ a:hover{
 #mainNav {
   padding: .5rem 0;
   margin: 0;
+  text-decoration: none;
 }
 .nav-brand {
   font-weight: 900;
+  text-decoration: none;
 }
-
+.nav-link {
+  text-decoration: none;
+  color: #000;
+  font-weight: normal;
+}
 .nav-link:hover {
   color: #45723f;
 }
@@ -58,6 +69,7 @@ a:hover{
 .btn-primary {
   background-color: #918056;
   border-color: #918056;
+  text-decoration: none;
 }
 
 .btn-primary:hover {
@@ -72,7 +84,15 @@ a:hover{
 .btn-primary:active {
   background-color: #45723f !important;
 }
-
+.progress-bar-gold {
+      background-color: #918056 !important;
+}
+.progress-bar-green {
+      background-color: #45723f !important;
+}
+.progressbar .bg-primary {
+  background-color: #918056;
+}
 #container-fluid {
   display: flex;
 
@@ -100,4 +120,75 @@ a:hover{
 
 .row-striped {
     padding: 15px 0;
+}
+
+.col-center {
+	margin: 0 auto;
+	float: none !important;
+}
+.carousel {
+	margin: 50px auto;
+	padding: 0 70px;
+}
+.carousel .item {
+	color: #262626;
+  text-align: center;
+	overflow: hidden;
+  min-height: 290px;
+}
+.carousel .item .img-box {
+	width: 168px;
+	height: 168px;
+	margin: 0 auto;
+	padding: 5px;
+	border: 1px solid #ddd;
+	border-radius: 50%;
+}
+.carousel .img-box img {
+	width: 100%;
+	height: 100%;
+	display: block;
+	border-radius: 50%;
+}
+.carousel .testimonial {
+	padding: 30px 0 10px;
+}
+.carousel .overview {
+	font-style: italic;
+}
+.carousel .overview b {
+	text-transform: uppercase;
+	color: #262626;
+}
+.carousel .carousel-control {
+	width: 40px;
+    height: 40px;
+    margin-top: -20px;
+    top: 50%;
+	background: none;
+}
+.carousel-control i {
+    font-size: 68px;
+    line-height: 42px;
+    position: absolute;
+    display: inline-block;
+	  color: #918056;
+}
+.carousel .carousel-indicators {
+	bottom: -40px;
+}
+.carousel-indicators li, .carousel-indicators li.active {
+	width: 10px;
+	height: 10px;
+	margin: 1px 3px;
+	border-radius: 50%;
+}
+.carousel-indicators li {
+	background: #262626;
+	border-color: transparent;
+	box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
+}
+.carousel-indicators li.active {
+	background: #918056;
+	box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
 }
