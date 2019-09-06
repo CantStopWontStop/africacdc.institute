@@ -31,7 +31,11 @@ footer a  {
 body {
   margin: 0;
   font-family: 'Nunito';
+  font-weight:300;
   letter-spacing: 0.0625em;
+}
+h1, h2, h3 {
+  font-weight:300;
 }
 a {
   color: #918056;
@@ -135,6 +139,7 @@ a:hover{
   text-align: center;
 	overflow: hidden;
   min-height: 290px;
+  font-weight:300;
 }
 .carousel .item .img-box {
 	width: 168px;
